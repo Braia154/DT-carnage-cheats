@@ -1,7 +1,7 @@
 gametitle=DT Carnage NTSC-U SLUS-21793 71C13227
-comment=Janes proprio - T1 experimental; teste manual independente confirmado
+comment=Janes into arcade
 
-[Codex Infinit PSY Janes - entrada propria T1]
+[Codex Infinit PSY Janes]
 author=Codex
 description=Libera flag11 ao montar lista Arcade. Preserva Finchback e registros. Reiniciar sem savestate.
 patch=1,EE,00189EA0,word,03E00008
