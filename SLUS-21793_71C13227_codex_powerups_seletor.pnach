@@ -1,7 +1,5 @@
 gametitle=DT Carnage NTSC-U SLUS-21793 71C13227
-comment=Codex seletor de powerups nos portais - ativar UMA secao
-// Desativar drops Medusa e Torpedo separados. Reiniciar sem savestate.
-// Base V3: altera somente retorno de SelectItem. Afeta tambem oponentes.
+comment=no random powerups on portals
 
 [Codex Powerup - Torpedo comum]
 author=Codex
