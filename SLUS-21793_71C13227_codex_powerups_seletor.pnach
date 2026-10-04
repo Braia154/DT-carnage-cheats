@@ -791,7 +791,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Ponto de salto]
+[Codex Powerup - jump spot]
 author=Codex
 description=Ativar somente esta secao. ID 10. Desativar outros cheats de drop. Afeta todos os carros.
 patch=1,EE,00189EA0,word,03E00008
