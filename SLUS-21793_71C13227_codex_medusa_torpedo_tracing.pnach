@@ -1,9 +1,7 @@
 gametitle=DT Carnage NTSC-U SLUS-21793 71C13227
 comment=Codex use enemy tracing in torpedo and Medusa powerups
 
-[Codex Medusa e Torpedo - tracing pela rota]
-author=Codex and braia
-description=Ativa tracing da Medusa e do Torpedo teleguiado
+[better tracing]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,00189EB0,word,27BDFF80
