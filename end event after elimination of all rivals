@@ -1,4 +1,5 @@
 gametitle=DT Carnage (USA) SLUS-21793
-
-[Codex - end race when all enemies retired from the race]
-patch=1,EE,00251474,word,240F0001
+[end races after retired rivals]
+patch=1,EE,002513B8,word,8E2F0060
+patch=1,EE,00251474,word,29EF0002
+patch=1,EE,00251478,word,55E0FFD1
