@@ -1,9 +1,7 @@
 gametitle=DT Carnage NTSC-U SLUS-21793 71C13227
 comment=Janes into arcade
 
-[Codex Infinit PSY Janes]
-author=Codex
-description=Libera flag11 ao montar lista Arcade. Preserva Finchback e registros. Reiniciar sem savestate.
+[Infinit PSY Janes in arcade]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A4EC,word,2403000B
@@ -41,3 +39,35 @@ patch=1,EE,0018A568,word,0805E792
 patch=1,EE,0018A56C,word,00021880
 patch=1,EE,00179E40,word,0806293B
 patch=1,EE,00179E44,word,00000000
+
+[Growth Board - Janes]
+patch=1,EE,00189EA0,word,03E00008
+patch=1,EE,00189EA4,word,00000000
+patch=1,EE,00369794,word,8DC20000
+patch=1,EE,0018A5AC,word,8C8E0034
+patch=1,EE,0018A5B0,word,8C8F0038
+patch=1,EE,0018A5B4,word,2DEF1B20
+patch=1,EE,0018A5B8,word,15E00007
+patch=1,EE,0018A5BC,word,3C0F0042
+patch=1,EE,0018A5C0,word,8DC16C7C
+patch=1,EE,0018A5C4,word,35EF80FA
+patch=1,EE,0018A5C8,word,142F0003
+patch=1,EE,0018A5CC,word,3C0F0046
+patch=1,EE,0018A5D0,word,35EF433B
+patch=1,EE,0018A5D4,word,ADCF6C7C
+patch=1,EE,0018A5D8,word,03E00008
+patch=1,EE,0018A5DC,word,8C82002C
+patch=1,EE,001F55AC,word,0806292D
+patch=1,EE,0018A4B4,word,8DCD0000
+patch=1,EE,0018A4B8,word,3A2F1B1F
+patch=1,EE,0018A4BC,word,15E00006
+patch=1,EE,0018A4C0,word,3C0F0042
+patch=1,EE,0018A4C4,word,35EF80FA
+patch=1,EE,0018A4C8,word,15AF0003
+patch=1,EE,0018A4CC,word,3C0F0046
+patch=1,EE,0018A4D0,word,35ED433B
+patch=1,EE,0018A4D4,word,ADCD0000
+patch=1,EE,0018A4D8,word,0807D56D
+patch=1,EE,0018A4DC,word,240F0003
+patch=1,EE,00369718,word,0806296B
+
