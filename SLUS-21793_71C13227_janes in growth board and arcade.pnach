@@ -1,7 +1,7 @@
 gametitle=DT Carnage NTSC-U SLUS-21793 71C13227
 comment=Janes into arcade
 
-[Infinit PSY Janes in arcade]
+[Infinit PSY Janes\in arcade]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A4EC,word,2403000B
@@ -40,7 +40,7 @@ patch=1,EE,0018A56C,word,00021880
 patch=1,EE,00179E40,word,0806293B
 patch=1,EE,00179E44,word,00000000
 
-[Growth Board - Janes]
+[Infinit PSY Janes\Growth Board]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,00369794,word,8DC20000
