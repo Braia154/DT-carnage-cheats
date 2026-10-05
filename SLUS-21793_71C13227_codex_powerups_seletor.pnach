@@ -1,9 +1,7 @@
 gametitle=DT Carnage NTSC-U SLUS-21793 71C13227
 comment=no random powerups on portals
 
-[Codex Powerup - Torpedo comum]
-author=Codex
-description=Ativar somente esta secao. ID 0. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\Torpedo]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -80,9 +78,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Torpedo teleguiado]
-author=Codex
-description=Ativar somente esta secao. ID 1. Desativar outros cheats de drop. Afeta todos os carros.
+[Powerup\homing Torpedo]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -159,9 +155,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Medusa]
-author=Codex
-description=Ativar somente esta secao. ID 2. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\Medusa]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -238,9 +232,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Canhao]
-author=Codex
-description=Ativar somente esta secao. ID 3. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\cannon]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -317,9 +309,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Bomba]
-author=Codex
-description=Ativar somente esta secao. ID 4. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\Bomb]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -396,9 +386,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Barreira]
-author=Codex
-description=Ativar somente esta secao. ID 5. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\fence]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -475,9 +463,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Bomba de barril]
-author=Codex
-description=Ativar somente esta secao. ID 6. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\barrel bomb]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -554,9 +540,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Oleo]
-author=Codex
-description=Ativar somente esta secao. ID 7. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\oil]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -633,9 +617,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Bomba eletromagnetica]
-author=Codex
-description=Ativar somente esta secao. ID 8. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\EMP Bomb]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -712,9 +694,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Armadura]
-author=Codex
-description=Ativar somente esta secao. ID 9. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\shield]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
@@ -791,7 +771,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - jump spot]
+[force Powerup\jump spot]
 author=Codex
 description=Ativar somente esta secao. ID 10. Desativar outros cheats de drop. Afeta todos os carros.
 patch=1,EE,00189EA0,word,03E00008
@@ -870,9 +850,7 @@ patch=1,EE,0017990C,word,00087A02
 patch=1,EE,0017A40C,word,080628E8
 patch=1,EE,0017A410,word,8E0E0000
 
-[Codex Powerup - Vaso (experimental)]
-author=Codex
-description=Ativar somente esta secao. ID 11. Desativar outros cheats de drop. Afeta todos os carros.
+[force Powerup\Vase (don´t use)]
 patch=1,EE,00189EA0,word,03E00008
 patch=1,EE,00189EA4,word,00000000
 patch=1,EE,0018A3A0,word,3C190018
